@@ -1,0 +1,7 @@
+Flask
+sqlalchemy
+python-dotenv
+pymysql
+'Flask[async]'
+quart
+quart_sqlalchemy

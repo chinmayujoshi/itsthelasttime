@@ -1,0 +1,16 @@
+using databases (mysql and redis).
+mysql:  XAMPP is preferred (download from website)
+redis:  (download from website)
+
+run redis server : redis-server
+creating virtual environment : python3 -m venv .venv
+activating virtual environment: . .venv/bin/activate
+installing dependencies: python install -r requirements.text
+running flask app: python app.py
+stopping flask app: ctrl+c
+deactivating virtual environment: deactivate
+
+to verify active sessions with redis:
+redis-cli
+SMEMBERS active_sessions  (lists all the active sessions)
+SPOP active_sessions      (pops top entry from active_sessions)
