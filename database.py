@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, text
 import os
 from dotenv import load_dotenv
 load_dotenv()
-engine = create_engine("mysql+pymysql://74ik0j4wf3rc1mw0pkym:pscale_pw_35kiT7U2nb0FWPTQhGDN456CZCPDtJtvmRFgjaSh6Co@aws.connect.psdb.cloud/personal-project")
+engine = create_engine("mysql+pymysql://sql12665856:Wpn7kYU1r8@sql12.freemysqlhosting.net/sql12665856")
 
 
 def addScore(timestamp, score):
