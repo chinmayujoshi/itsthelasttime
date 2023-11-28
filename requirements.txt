@@ -5,3 +5,4 @@ pymysql
 'Flask[async]'
 quart
 quart_sqlalchemy
+pytz
